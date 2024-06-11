@@ -259,6 +259,11 @@ Version:	1.1
 	color: #000;
 	font-size: 32px;
 }
+@media screen and (max: 768px) {
+	.about-main-heading{
+		font-size: 22px;
+	}
+}
 .about-heading{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
