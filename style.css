@@ -340,7 +340,10 @@ Version:	1.1
 .option{
 	height: 43px;
 	width: 183px;
-
+	text-align: center;
+}
+.option-element{
+	text-align: center;
 }
 .input-one{
 	background-color: antiquewhite;
