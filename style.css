@@ -336,10 +336,10 @@ Version:	1.1
 @media screen and (max-width: 600px) {
 	.paragraph{
 		font-size: 14px;
-		margin-left: 9px;
+		margin-left: 5px;
 		margin-bottom: 8px;
-		max-width: 455px;
-		width: 455px;
+		max-width: 350px;
+		
 		padding: 5px;
 	}
 }
@@ -379,8 +379,7 @@ Version:	1.1
 }
 .input-container{
 	background-color: antiquewhite;
-	width: 334px;
-	height: 114px;
+	width: 60vw;
 	margin: 10px;
 	padding: 15px;
 	border-radius: 5px;
@@ -401,6 +400,12 @@ Version:	1.1
 	align-items: center;
 	justify-content: center;
 	padding: 4px;
+}
+@media screen and (max-width: 600px) {
+	.input-and-label-container{
+		display: flex;
+		flex-direction: column;
+	}
 }
 .align{
 	display: flex;
