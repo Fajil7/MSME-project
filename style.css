@@ -72,7 +72,7 @@ Version:	1.1
 }
 @media screen and (max-width: 430px) {
 	.buss-heading{
-		font-size: 22px;
+		font-size: 20px;
 	}
 }
 .directory-card{
@@ -100,16 +100,41 @@ Version:	1.1
     width: 120px;
     margin: 12px;
 }
+@media screen and (max-width: 600px) {
+	.profile{
+		width: 80px;
+		margin: 12px;
+	}
+}
 .name{
     font-size: 19px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 600;
+}
+.apply-webite{
+	font-size: 15px;
+    font-family: sans-serif;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+@media screen and (max-width: 600) {
+	.apply-webite{
+		font-size: 15px;
+		max-width: 38px;
+		width: 38px;
+	}
 }
 .possition{
     font-size: 15px;
     font-family: sans-serif;
 	font-weight: bold;
 	margin-bottom: 30px;
+}
+@media screen and (max-width: 600px) {
+	.possition{
+		font-size: 15px;
+		font-family: sans-serif;
+	}
 }
 .about-detail-card{
     background-color: aqua;
@@ -153,6 +178,12 @@ Version:	1.1
     justify-content: space-around;
     align-items: center;
     margin-top: 55px;
+}
+@media screen and (max-width: 600px) {
+	.process-card{
+		flex-wrap: wrap;
+		margin-right: 0px;
+	}
 }
 .process-detail-card{
     display: flex;
@@ -259,9 +290,12 @@ Version:	1.1
 	color: #000;
 	font-size: 32px;
 }
-@media screen and (max: 768px) {
+@media screen and (max-width: 600px) {
 	.about-main-heading{
-		font-size: 22px;
+		font-size: 25px;
+		max-width: 334px;
+		width: 334px;
+		text-align: center;
 	}
 }
 .about-heading{
@@ -282,6 +316,14 @@ Version:	1.1
 	font-size: 32px;
 	margin-left: 112px;
 }
+@media screen and (max-width: 600px) {
+	.about-1-heading{
+		font-size: 17px;
+		margin-left: 12px;
+		max-width: 333px;
+		width: 333px;
+	}
+}
 .paragraph{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: #000;
@@ -290,9 +332,26 @@ Version:	1.1
 	margin-bottom: 15px;
 	
 }
+@media screen and (max-width: 600px) {
+	.paragraph{
+		font-size: 12px;
+		margin-left: 9px;
+		margin-bottom: 8px;
+		max-width: 455px;
+		width: 455px;
+		flex-wrap: wrap;
+		padding: 5px;
+	}
+}
 .line{
 	margin-left: 112px;
 	margin-right: 112px;
+}
+@media screen and (max-width: 600px) {
+	.line{
+		margin-left: 5px;
+		margin-right: 5px;
+	}
 }
 .span-element{
 	font-weight: bold;
@@ -503,12 +562,12 @@ Version:	1.1
 
 
 
-
 body{
     font-family: 'Poppins', sans-serif;
 	font-weight: 400;
 	font-size:14px;
 	color:#888;
+	width: 100vw;
 }
 
 
