@@ -387,6 +387,14 @@ Version:	1.1
 .label{
 	font-size: 15px;
 }
+@media screen and(max-width: 600px) {
+	.label{
+		font-size: 10px;
+		max-width: 350px;
+		width: 350px;
+		
+	}
+}
 .required{
 	color: red;
 }
@@ -422,36 +430,46 @@ Version:	1.1
 }
 .input-one{
 	background-color: antiquewhite;
-	width: 688px;
-	height: 114px;
+	width: 80vw;
 	margin: 10px;
 	padding: 15px;
 	border-radius: 5px;
 }
+@media screen and (max-width: 600px) {
+	.input-one{
+		width: 60vw;
+	}
+}
 .input-two{
 	background-color: antiquewhite;
-	width: 708px;
-	height: 214px;
+	width: 80vw;
 	margin: 10px;
 	padding: 10px;
 	border-radius: 5px;
 	text-align: center;
 
 }
+@media screen and (max-width: 600px) {
+	.input-two{
+		width: 60vw;
+	}
+}
 .textarea{
-	height: 150px;
 	margin: 12px;
 	border-width: 0px;
-	width: 650px;
-
+	width: 70vw;
+}
+@media screen and (max-width: 600px) {
+	.textarea{
+		width: 50vw;
+	}
 }
 .span{
 	font-size: 12px;
 }
 .input-and-image-container{
 	background-color: antiquewhite;
-	width: 334px;
-	height: 154px;
+	width: 60vw;
 	margin: 10px;
 	padding: 15px;
 	border-radius: 5px;
@@ -471,6 +489,14 @@ Version:	1.1
 }
 .qr-code{
 	height: 324px;
+}
+.gpay{
+	margin-left: 15px;
+}
+@media screen and (max-width: 600px) {
+	.gpay{
+		text-align: center;
+	}
 }
 .checkbox{
 	display: flex;
