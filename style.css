@@ -517,12 +517,10 @@ Version:	1.1
 	margin: 10px;
 	background-color: transparent;
 	border-width: 0px;
-	
-	
 }
+
 .question-contianer{
-	height: 42px;
-	width: 983px;
+	width: 80vw;
 	border-width: 0px;
 	border-radius: 5px;
 	background-color: antiquewhite;
@@ -537,8 +535,14 @@ Version:	1.1
 	font-weight: 600;
 	font-size: 15px;
 }
+@media screen and (max-width: 600px) {
+	.question{
+		font-size: 15px;
+		font-weight: 400;
+	}
+}
 .ans-container{
-	width: 983px;
+	width: 80vw;
 	border-width: 0px;
 	border-radius: 5px;
 	background-color: antiquewhite;
