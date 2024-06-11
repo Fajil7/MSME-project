@@ -322,6 +322,7 @@ Version:	1.1
 		margin-left: 12px;
 		max-width: 333px;
 		width: 333px;
+		text-align: center;
 	}
 }
 .paragraph{
@@ -334,12 +335,11 @@ Version:	1.1
 }
 @media screen and (max-width: 600px) {
 	.paragraph{
-		font-size: 12px;
+		font-size: 14px;
 		margin-left: 9px;
 		margin-bottom: 8px;
 		max-width: 455px;
 		width: 455px;
-		flex-wrap: wrap;
 		padding: 5px;
 	}
 }
@@ -362,6 +362,12 @@ Version:	1.1
 	width: 100vw;
 	height: 60vh;
 	object-fit: cover;
+}
+@media screen and (max-width: 600px) {
+	.form-img{
+		height: 20vh;
+		width: 100vw;
+	}
 }
 
 .form-main-container{
