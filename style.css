@@ -87,29 +87,30 @@ Version:	1.1
 	}
 }
 .cus-profile-container{
-	background-color: antiquewhite;
-    width: 170px;
-    height: 250px;
+	background-color: rgb(218, 231, 227);
+    width: 270px;
+    height: 230px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 10px;
+	border-radius: 5px;
 }
 .profile{
     width: 120px;
-    margin: 12px;
+    margin-top: 19px;
 }
 @media screen and (max-width: 600px) {
 	.profile{
 		width: 80px;
-		margin: 12px;
 	}
 }
 .name{
     font-size: 19px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 600;
+	margin-top: 14px;
 }
 .apply-webite{
 	font-size: 15px;
@@ -137,20 +138,37 @@ Version:	1.1
 	}
 }
 .about-detail-card{
-    background-color: aqua;
+    background-color: rgb(218, 231, 227);
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 999px;
+    width: 70vw;
+	border-radius: 5px;
+	padding: 12px;
 	
+}
+@media screen and (max-width: 600px) {
+	.about-detail-card{
+		display: flex;
+		flex-direction: column;
+		justify-content: baseline;
+		width: 100vw;
+	}
 }
 .detail-card{
     background:#1a76d1;
-    width: 333px;
-    height: 244px;
-    margin: 12px;
-    
-    
+    width: 55vw;
+    height: 244px; 
+	margin-right: 10px;
+		margin-left: 10px;  
+}
+@media screen and (max-width: 600px) {
+	.detail-card{
+		width: 88vw;
+		
+		margin-left: 0px;
+		margin-bottom: 10px;
+		
+	}
 }
 .abou-heading{
 	color: #ffffff;
@@ -194,7 +212,6 @@ Version:	1.1
 .testimonial-contianer{
     background:#1a76d1;
     margin-top: 222px;
-    height: 90vh;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -208,7 +225,6 @@ Version:	1.1
     justify-content: center;
     align-items: center;
     width: 70vw;
-    height: 60vh;
     margin: 10ox;
 }
 .img{
@@ -221,7 +237,6 @@ Version:	1.1
 .testi-detail-card{
     background-color: #ffffff;
     width: 67vw;
-    height: 40vh;
     padding: 15px;
     margin: 8px;
     display: flex;
@@ -229,8 +244,14 @@ Version:	1.1
     justify-content: center;
     align-items: center;
 }
+@media screen and(max-width: 600px) {
+	.testi-detail-card{
+		flex-wrap: wrap;
+	}
+}
 .testi-name{
 	margin-top: 14px;
+	margin-bottom: 6px;
 }
 .tesi-into{
     font-family: sans-serif;   
@@ -240,42 +261,55 @@ Version:	1.1
     align-items: center;
 }
 .com-logo{
-    width: 162px;
+    width: 142px;
     margin: 85px;
 }
 .business-contianer{
-    background-color: rgb(0, 139, 132);
-    height: 163px;
+    background-color: rgb(218, 231, 227);
     width: 100vw;
-    margin-top: 5px;
-    margin-left: 4px;
-    
+	background-size: cover;
+    margin-top: 10px;
+}
+@media screen and (max-width: 600px){
+	.business-contianer{
+		margin-left: 0px;
+	}
 }
 .heading{
     font-size: 23px;
     font-family: sans-serif;
     padding: 5px;
-	color: #ffffff;
+	
+}
+@media screen and (max-width: 600px) {
+	.heading{
+		font-size: 17px;
+	}
 }
 .text{
 	font-size: 22px;
     font-family: sans-serif;
     padding: 5px;
-	color: #ffffff;
+	
+}
+@media screen and (max-width: 600px) {
+	.text{
+		font-size: 17px;
+		margin: 10px;
+	}
 }
 .text-manufacture{
 	font-size: 16px;
     font-family: 'Segoe UI';
-	color: #ffffff;
+	
 }
 .directory-data-container{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    
+	flex-wrap: wrap;    
 }
 .directory-data{
     font-family: sans-serif; 
+	margin: 15px;
 }
 .logo-footer{
     background-color: #ffffff;
@@ -901,10 +935,15 @@ body{
 	Start Hero Area CSS
 =============================*/
 .slider .single-slider {
-	height: 600px;
+	height:50vw;
 	background-size: cover;
 	background-position: center;
 	background-repeat:no-repeat;
+}
+@media screen and (max-width: 600px) {
+	.slider .single-slider{
+		height: 30vw;
+	}
 }
 .slider .single-slider .text{
 	margin-top:120px;
