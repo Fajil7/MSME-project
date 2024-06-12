@@ -458,10 +458,12 @@ Version:	1.1
 .option{
 	height: 43px;
 	width: 183px;
-	text-align: center;
+	
+	font-size: 10px;
 }
 .option-element{
 	text-align: center;
+	font-size: 10px;
 }
 .input-one{
 	background-color: antiquewhite;
@@ -557,6 +559,7 @@ Version:	1.1
 	border-radius: 5px;
 	background-color: #1A76D1;
 	margin: 12px;
+	color: #000;
 
 }
 /* end listing from section*/
